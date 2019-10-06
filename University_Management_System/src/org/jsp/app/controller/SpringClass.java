@@ -29,7 +29,7 @@ public class SpringClass
 		String result = serviceClass.scheduleProgramService(programsScheduled);
 		if("yes".equals(result))
 		{
-			modelAndView = new ModelAndView("AddScheduleProgram","data","Updated");
+			modelAndView = new ModelAndView("AddScheduleProgram","data","Updated");//updated just message
 		}
 		else
 		{
